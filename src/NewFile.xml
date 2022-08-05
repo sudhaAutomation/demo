@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="login credentials test">
+<test name="admin login">
+<parameter name="browser" value="edge"/>
+<parameter name="url" value="https://digitechinc.in/demos/1swishzz_staging/admin"/>
+<parameter name="emailid" value="admin@admin.com"/>
+<parameter name="password" value="123456"/>
+<classes>
+<class name="TestNG1.Parametersclass"/>
+</classes>
+</test>
+</suite>

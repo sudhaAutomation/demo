@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [swhizz portal loginCredentials Test]">
+  <parameter name="password" value="123456"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="emailid" value="admin@admin.com"/>
+  <parameter name="url" value="https://digitechinc.in/demos/1swishzz_staging/admin"/>
+  <test name="urltest(failed)">
+    <parameter name="password" value="123456"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="emailid" value="admin@admin.com"/>
+    <parameter name="url" value="https://digitechinc.in/demos/1swishzz_staging/admin"/>
+    <classes>
+      <class name="TestNG1.Admintest">
+        <methods>
+          <include name="logintest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestNG1.Admintest -->
+    </classes>
+  </test> <!-- urltest(failed) -->
+</suite> <!-- Failed suite [swhizz portal loginCredentials Test] -->
